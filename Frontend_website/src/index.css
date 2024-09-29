@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number]{
+  -moz-appearance: textfield;
+}
+.gif{
+  background: url("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHU4dGI2YTgwbDF1YTY5bzR3aWV6dHFkdm1lNDRwcDNlbjd6a3ZocSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dYtHPYJxZblCcWPwcQ/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
