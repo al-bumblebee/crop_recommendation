@@ -137,7 +137,7 @@ const App = () => {
   
       console.log("Sending request with body:", bodyContent);
   
-      let response = await fetch("http://localhost:5000/predict", { 
+      let response = await fetch("https://crop-recommendation-backend-5ifq.onrender.com/predict", { 
         method: "POST",
         body: bodyContent,
         headers: headersList
